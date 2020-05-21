@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Crud!</title>
 </head>
 <h1 style="text-align: center; margin-bottom: 80px">VER REGISTROS</h1>
 
@@ -20,8 +20,8 @@
         <thead>
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Nombre</th>
-            <th scope="col">Apellido</th>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
             <th scope="col">Telefono</th>
             <th scope="col">Correo</th>
 
@@ -49,6 +49,9 @@
             @endforeach-
         </tbody>
       </table>
+      <div style="text-align:center;">
+      <a href="/"><button class="btn btn-success">Crear registro</button></a>
+       </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

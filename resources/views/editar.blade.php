@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Crud</title>
 </head>
 <h1 style="text-align: center; margin-bottom: 80px">EDITAR</h1>
 
@@ -47,7 +47,7 @@
             <button type="submit" class="btn btn-success">Actualizar</button>
             <a href="/" class="btn btn-danger">Cancelar</a>
         </div>
-        
+
     </form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

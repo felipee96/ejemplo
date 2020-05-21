@@ -22,8 +22,8 @@ class RegistroController extends Controller
     {
         $datosRegistro = request()->except('_token');
         registro::insert($datosRegistro);
-        return view('principal');
-        
+        return view('ver');
+
     }
 
     //METODO EDITAR
